@@ -1,3 +1,3 @@
 FROM registry.access.redhat.com/rhel7
-RUN yum update
+COPY someFile.txt .
 EXPOSE 80
